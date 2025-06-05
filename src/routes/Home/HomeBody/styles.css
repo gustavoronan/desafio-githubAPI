@@ -1,0 +1,9 @@
+h2{
+    font-size: 48px;
+}
+
+p{
+    color: var(--color-font-secondary);
+    font-size: 24px;
+    font-weight: 700;
+}

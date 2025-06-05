@@ -1,0 +1,12 @@
+header {
+    height: 80px;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-font-tertiary);
+    display: flex;
+    align-items: center;
+}
+
+.site-name {
+    font-size: 24px;
+    font-weight: 500;
+}
