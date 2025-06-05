@@ -10,7 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} >
             <Route index element={<HomeBody />} />
-            <Route path="promotion" element={<Search />} />
+            <Route path="search" element={<Search />} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -1,7 +1,35 @@
 .card {
-    border-radius: 6px;
-    background-color: var(--color-bg-primary);
-    color: var(--color-font-primary);
-    padding: 20px;
-    min-height: 200px;
+  border-radius: 16px;
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-font-quarternary);
+  padding: 20px;
+  min-height: 270px;
+  font-size: 38px;
+  width: 100%;
+}
+
+.card h2 {
+  font-weight: 500;
+}
+
+.search-bar {
+  height: 40px;
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.search-bar input {
+  border: 1px solid var(--color-card-border);
+  border-radius: 6px;
+  height: 100%;
+  font-size: 16px;
+  padding: 17px;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.search-bar ::placeholder{
+    color: var(--color-placeholder);
 }
