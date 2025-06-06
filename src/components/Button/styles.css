@@ -1,4 +1,4 @@
-.button {
+button {
     border-radius: 6px;
     background-color: var(--color-bg-secondary);
     color: var(--color-font-tertiary);
@@ -8,4 +8,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
 }

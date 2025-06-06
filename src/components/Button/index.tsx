@@ -2,13 +2,14 @@ import "./styles.css";
 
 type Props = {
     text: string;
+    type?: "button" | "submit"
 }
 
 export default function Button({text} : Props) {
 
     return (
-        <div className="button">
+        <button className="button">
             {text}
-        </div>
+        </button>
     )
 }
