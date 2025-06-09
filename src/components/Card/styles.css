@@ -8,6 +8,12 @@
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .card {
+    font-size: 18px;
+  }
+}
+
 .card h2 {
   font-weight: 500;
 }

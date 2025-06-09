@@ -4,6 +4,7 @@
   --color-bg-primary: #fff;
   --color-bg-secondary: #1890FF;
   --color-bg-tertiary: #E6F7FF;
+  --color-bg-quaternary: #F5F5F5;
 
   --color-font-primary: #000000;
   --color-font-secondary: #7E7E7E;
@@ -37,6 +38,13 @@ a, a:hover {
 .container {
     padding: 0px 90px;
     min-width: 1251px;
+}
+
+@media (max-width: 1256px) {
+    .container {
+        padding: 0 16px;
+        min-width: 0;
+    }
 }
 
 .mb30 {
