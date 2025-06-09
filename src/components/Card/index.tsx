@@ -29,10 +29,10 @@ export default function Card({ title }: Props) {
 
   function handleFormSubmit(event: any) {
     event.preventDefault();
-    setHasSearched(true);
     findUser(formData.userName)
-      .then((response) => {
-        setUser(response.data);
+    .then((response) => {
+      setUser(response.data);
+      setHasSearched(true);
       })
       .catch((error) => {
         setUser(undefined);
